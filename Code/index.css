@@ -6,7 +6,7 @@
 
 body {
     text-align: center;
-    background-image: url('./../General/background.jpg');
+    background-image: url('./General/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
