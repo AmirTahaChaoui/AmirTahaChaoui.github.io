@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-image: url('./../General/background2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo {
+    height: 150px;
+    margin-top: 5px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.conteneur {
+    position: relative;
+}
+
+.icon {
+    margin-top: -25px;
+    margin-bottom: -40px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+.icon:hover{
+    transform: scale(1.07);
+}
+
+.aide {
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 300%;
+}
+
+.info {
+    width: 40px;
+    height: 40px;
+}
+
+.guide {
+    width: 35px;
+    height: 35px;
+    margin-top: -23px;
+}
+
+.navigation {
+    margin-top: 40px;
+    background: linear-gradient( #c5bf83, #efefd9);
+    /*background: linear-gradient(#b8081c, #f3ae58);*/
+    /*background: linear-gradient(#f3ae58, #b8081c);*/
+    border-radius: 30px;
+    border: 2px solid black;
+    box-shadow: 0px 8px 15px rgb(57 27 33);
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.jeu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 50px;
+    margin-top: 140px;
+}
+
+.consigne {
+    background: radial-gradient(#8eacac77, #80a29f);
+    font-family: 'Mochiy Pop P One';
+    color: white;
+    text-shadow: 0 3px 5px rgb(0 0 0), 5px 5px 10px #225283;
+    font-size: 26px;
+    width: 300px;
+    height: 200px;
+    padding: 30px 20px;
+    border-radius: 15px;
+    border: 3px solid #1e555c;
+    box-shadow: 0 5px 15px #8fabac, inset 0 0 10px rgba(255, 255, 255);
+    backdrop-filter: blur(4px);
+}
+
+.consigne-t2 {
+    color: white;
+    font-size: 14px;
+    font-style: italic;
+    font-family: sans-serif;
+    margin-top: 25px;
+}
+
+.conteneur2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.input-recherche {
+    /*background: radial-gradient(circle, #8eacac, #80a29f);*/
+    font-size: 18px;
+    padding-left: 10px;
+    width: 240px;
+    height: 30px;
+    border: 2px solid #1e555cab;
+    box-shadow: 0 4px 8px #8fabac, inset 0 0 8px rgba(255, 255, 255, 0.3);
+    outline: none;
+}
+.suggestion-recherche {
+    position: absolute;
+    top: 290px;
+    z-index: 10;
+    width: 240px;
+    max-height: 300px;
+    overflow: auto;
+    font-family: Arial, sans-serif;
+    border-right: 20px  #688d92;
+    border-left: 20px  #688d92;
+    border-bottom: 20px  #688d92;
+    box-shadow: 0 4px 8px #8fabac, inset 0 0 8px rgba(255, 255, 255, 0.3);
+}
+.suggestion-item {
+    display: flex;
+    align-items: center;
+    padding-right: 73px;
+    border: 1px solid #ccc;
+    background-color: #8fabac;
+    cursor: pointer;
+    width: 100%;
+}
+.suggestion-item-img {
+    width: 55px;
+    height: 55px;
+    margin-right: 10px;
+}
+
+.comparaison-tableau {
+    position: relative;
+    color: white;
+    font-family: sans-serif;
+    border-spacing: 5px; /* Espace entre les cellules du tableau */
+}
+
+.attributs-ligne-cell {
+    font-size: 19px;
+    font-family: 'Teko';
+    font-weight: 500;
+    padding: 3.1px;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+.contenu-ligne-cell {
+    animation: fadeIn 0.5s ease-out forwards;
+    opacity: 0; /* Les cellules sont initialement invisibles */
+  }
+.contenu-ligne-cell:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.contenu-ligne-cell:nth-child(3) {
+  animation-delay: 1.2s;
+}
+.contenu-ligne-cell:nth-child(4) {
+  animation-delay: 1.9s;
+}
+.contenu-ligne-cell:nth-child(5) {
+  animation-delay: 2.6s;
+}
+.contenu-ligne-cell:nth-child(6) {
+  animation-delay: 3.3s;
+}
+.contenu-ligne-cell:nth-child(7) {
+  animation-delay: 4s;
+}
+
+.contenu-ligne-cell {
+    border-radius: 10px;
+    width: 83px; 
+    height: 85px; 
+    border: 1px solid black;
+}
+
+.comparaison-img {
+    width: 80px;
+    height: 85px;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.conteneur3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+.victoire {
+    font-family: 'Mochiy Pop P One';
+    color: white;
+    text-shadow: 0 3px 5px rgb(0 0 0), 5px 5px 10px #113f23;
+    font-size: 25px;
+    width: 300px;
+    height: 200px;
+    padding: 30px 20px;
+    border-radius: 15px;
+    border: 3px solid #3e9d45;
+    box-shadow: 0 5px 15px #113f23, inset 0 0 10px rgb(255 255 255);
+    backdrop-filter: blur(7px);
+    margin: 25px 0 0 148px;
+}
+.victoire-t2 {
+    font-style: italic;
+    font-size: 14px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 25px;
+}
+
+@keyframes zoomInRotate {
+    0% {
+      transform: scale(0.5) rotate(-10deg);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1) rotate(0);
+      opacity: 1;
+    }
+}
+.victoire {
+    animation: zoomInRotate 0.5s ease-out forwards;
+}
+  
+
+footer {
+    margin-top: 350px;
+    padding: 9px;
+    font-size: 12px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 10px;
+}
+
+
+

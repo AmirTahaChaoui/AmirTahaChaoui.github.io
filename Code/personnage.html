@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="personnage.css">
+    <title>HxHdle</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Marhey:wght@300..700&family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Marhey:wght@300..700&family=Mochiy+Pop+P+One&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <img class="logo" src="../General/logo.png">
+    <div class="conteneur">
+        <nav class="aide">
+            <img class="icon info" src="../General/info.png" title="À propos">
+            <img class="icon guide" src="../General/question.png" title="Comment jouer ?">
+        </nav>
+    </div>
+    <div class="conteneur">
+        <nav class="navigation">
+            <img class="icon perso" src="../perso.webp" title="Personnage">
+            <img class="icon hatsu" src="../General/hatsu.png" title="Hatsu">
+            <img class="icon citation" src="../General/citation2.png" title="Citation">
+            <img class="icon emoji" src="../General/emoji.png" title="Emoji">
+        </nav>
+    </div>
+
+    <div class="contenu">
+
+        <div class="jeu">
+
+            <div class="consigne">
+                <p class="consigne-t1">DEVINE LE PERSONNAGE</p>
+                <p class="consigne-t2">Les personnages et leurs informations sont ceux de la fin de l'anime de 2011.</p>
+            </div>
+
+            <div class="conteneur2">
+                    <input class="input-recherche" type="text" placeholder="Entrer un personnage..."/>
+                    <div class="suggestion-recherche"></div>
+            </div>
+            
+            <table class="comparaison-tableau">
+                <thead class="tableau-attributs"></thead>
+                <tbody class="tableau-contenu"></tbody>
+            </table>
+
+        </div>
+    
+        <footer>
+            <p>© hxhdle.net - 2025</p> <br>
+            <p>Développé par Mohammed Aggab, Jibril Ferrat et Amir Chaoui</p>
+        </footer>
+
+    </div>
+
+    <script src="personnage.js"></script>
+</body>
+</html>

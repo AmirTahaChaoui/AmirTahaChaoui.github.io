@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-image: url('./../General/background2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo {
+    height: 150px;
+    margin-top: 5px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+.logo:hover{
+    transform: scale(1.05);
+}
+
+.slogan {
+    color: white;
+    font-family: 'Mochiy Pop P One';
+    text-shadow: 3px 3px 5px black;
+    -webkit-text-stroke: 0.2px black;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.aide {
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+.icon:hover{
+    transform: scale(1.07);
+}
+ 
+.guide {
+    width: 42px;
+    height: 42px;
+    margin-bottom: 3.75px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    border: 3px solid;
+    border-radius: 100px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.2s;
+    box-shadow: 0px 0px 30 rgba(0, 0, 0, 0.413);
+}
+
+.btn-text {
+    text-shadow: -0.5px 0.5px 30px rgb(255, 255, 255);
+    -webkit-text-stroke: 0.8px black;
+    font-size: 230%;
+    font-weight: bold;
+    font-family: 'Londrina Solid', serif;
+    border : none;
+    margin-left: 100px;
+}
+
+.btn-img {
+    border: none;
+    position: absolute;
+    left: 15px;
+    height: 50px;
+    width: 50px;
+}
+
+.personnage {
+    border-color: #f2f2f2ad;
+    background: #00000070;
+}
+
+.hatsu {
+    border-color: #0a4523cb ;
+    background: #0a452377 ;
+}
+
+.citation {
+    border-color: #65122c;
+    background: #7810318a;
+}
+
+.emoji {
+    border-color: #b9387be8;
+    background: #d9559996;
+}
+
+.btn:hover {
+    transform: scale(1.06);
+    box-shadow: 0 4px 10px #00000069;
+}
+
+footer {
+    margin-top: 350px;
+    padding: 9px;
+    font-size: 12px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 10px;
+}
