@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-image: url('../Ressources/General/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo {
+    height: 150px;
+    margin-top: 5px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.conteneur {
+    position: relative;
+}
+
+.icon {
+    margin-top: -25px;
+    margin-bottom: -20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+.icon:hover{
+    transform: scale(1.07);
+}
+
+.aide {
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 300%;
+}
+
+.info {
+    width: 40px;
+    height: 40px;
+}
+
+.guide {
+    width: 35px;
+    height: 35px;
+    margin-top: -23px;
+}
+
+.navigation {
+    margin-top: 40px;
+    background: linear-gradient( #c5bf83, #efefd9);
+    border-radius: 30px;
+    border: 2px solid black;
+    box-shadow: 0px 8px 15px rgb(57 27 33);
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.jeu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 50px;
+    margin-top: 140px;
+}
+
+.consigne {
+    background: radial-gradient(#8eacac77, #80a29f);
+    font-family: 'Mochiy Pop P One';
+    color: white;
+    text-shadow: 0 3px 5px rgb(0 0 0), 5px 5px 10px #225283;
+    font-size: 22px;
+    padding: 30px 10px 0 10px;
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    border: 3px solid #1e555c;
+    box-shadow: 0 5px 15px #8fabac, inset 0 0 10px rgba(255, 255, 255);
+    backdrop-filter: blur(4px);
+}
+
+.consigne-t2 {
+    font-size: 14px;
+    font-style: italic;
+    font-family: sans-serif;
+    padding: 0 13px 30px 13px;
+}
+
+.conteneur2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.input-recherche {
+    font-size: 18px;
+    padding-left: 10px;
+    width: 240px;
+    height: 30px;
+    border: 2px solid #1e555cab;
+    box-shadow: 0 4px 8px #8fabac, inset 0 0 8px rgba(255, 255, 255, 0.3);
+    outline: none;
+}
+.suggestion-recherche {
+    position: absolute;
+    top: 350px;
+    z-index: 10;
+    width: 240px;
+    max-height: 300px;
+    overflow: auto;
+    font-family: Arial, sans-serif;
+    border-right: 20px  #688d92;
+    border-left: 20px  #688d92;
+    border-bottom: 20px  #688d92;
+    box-shadow: 0 4px 8px #8fabac, inset 0 0 8px rgba(255, 255, 255, 0.3);
+}
+.suggestion-item {
+    display: flex;
+    align-items: center;
+    padding-right: 73px;
+    border: 1px solid #ccc;
+    background-color: #8fabac;
+    cursor: pointer;
+    width: 100%;
+}
+.suggestion-item-img {
+    width: 55px;
+    height: 55px;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+
+.comparaison {
+    margin-top: 50px;
+    position: relative;
+    overflow: auto;
+    font-family: Arial, sans-serif;
+}
+
+@keyframes erreur {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+  }
+.comparaison-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 250px;
+    height: 90px;
+    margin-bottom: 15px;
+    animation: erreur 0.3s ease-in-out;
+
+}
+.comparaison-img {
+    width: 70px;
+    height: 75px;
+    object-fit: cover;
+    border: 1px solid black;
+}
+.comparaison-text {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.conteneur3 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+@keyframes zoomInRotate {
+    0% {
+      transform: translate(-50%, -50%) scale(0) rotate(-10deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(1) rotate(0deg);
+    }
+}
+  
+.victoire {
+    font-family: 'Mochiy Pop P One';
+    color: white;
+    text-shadow: 0 3px 5px rgb(0 0 0), 5px 5px 10px #113f23;
+    font-size: 25px;
+    width: 300px;
+    height: 200px;
+    padding: 30px 20px;
+    border-radius: 15px;
+    border: 3px solid #3e9d45;
+    box-shadow: 0 5px 15px #113f23, inset 0 0 10px rgb(255 255 255);
+    backdrop-filter: blur(7px);
+    position: absolute;
+    top: 130%;
+    animation: zoomInRotate 0.5s ease-out forwards;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.victoire-t2 {
+    font-style: italic;
+    font-size: 14px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 25px;
+}
+
+footer {
+    margin-top: 400px;
+    padding: 9px;
+    font-size: 12px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 10px;
+}

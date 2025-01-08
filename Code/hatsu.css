@@ -6,7 +6,7 @@
 
 body {
     text-align: center;
-    background-image: url('./../General/background2.jpg');
+    background-image: url('../Ressources/General/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -29,7 +29,7 @@ body {
 
 .icon {
     margin-top: -25px;
-    margin-bottom: -40px;
+    margin-bottom: -20px;
     width: 50px;
     height: 50px;
     cursor: pointer;
@@ -67,7 +67,7 @@ body {
     border-radius: 30px;
     border: 2px solid black;
     box-shadow: 0px 8px 15px rgb(57 27 33);
-    padding: 4px;
+    padding: 0;
     display: flex;
     justify-content: center;
     gap: 5%;
@@ -92,7 +92,7 @@ body {
     text-shadow: 0 3px 5px rgb(0 0 0), 5px 5px 10px #225283;
     font-size: 22px;
     width: 300px;
-    height: 200px;
+    height: auto;
     padding: 30px 20px;
     border-radius: 15px;
     border: 3px solid #1e555c;
@@ -105,6 +105,7 @@ body {
     font-size: 19px;
     font-style: italic;
     font-family: sans-serif;
+    padding-bottom: 2px;
 }
 
 .conteneur2 {
@@ -113,7 +114,6 @@ body {
     flex-direction: column;
 }
 .input-recherche {
-    /*background: radial-gradient(circle, #8eacac, #80a29f);*/
     font-size: 18px;
     padding-left: 10px;
     width: 240px;
@@ -148,6 +148,7 @@ body {
     width: 55px;
     height: 55px;
     margin-right: 10px;
+    object-fit: cover;
 }
 
 
@@ -216,10 +217,10 @@ body {
     box-shadow: 0 5px 15px #113f23, inset 0 0 10px rgb(255 255 255);
     backdrop-filter: blur(7px);
     position: absolute;
-    top: 90%;
+    top: 120%;
     animation: zoomInRotate 0.5s ease-out forwards;
     left: 50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
 }
 .victoire-t2 {
     font-style: italic;

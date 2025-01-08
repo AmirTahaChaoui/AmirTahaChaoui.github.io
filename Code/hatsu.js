@@ -1,113 +1,81 @@
 const TabPersosRecherche = [
-    { prenom: "Gon", nom: "Freecss", image: "../Personnages/kirua.webp" },
-    { prenom: "Kirua", nom: "Zoldik", image: "../Personnages/kirua.webp" },
-    { prenom: "Kurapika", nom: "", image: "../Personnages/kurapika.jpg" },
-    { prenom: "Leolio", nom: "Paradinaito", image: "../Personnages/leolio.webp" },
+    { prenom: "Kurapika", nom: "", image: "../Personnages/kurapika.jpg", hatsu: "Emperor Time" },
     // Examen Hunter
-    { prenom: "Hisoka", nom: "Morow", image: "../Personnages/hisoka.webp" },
-    { prenom: "Irumi", nom: "Zoldik", image: "../Personnages/irumi.jpg", hatsu: "Dance of the Serpent's Bite" },
-    { prenom: "Isaac", nom: "Netero", image: "../Personnages/netero.jpg" },
+    { prenom: "Irumi", nom: "Zoldik", image: "../Personnages/irumi.jpg", hatsu: "Needle People" },
     // Famille Zoldik
-    { prenom: "Silva", nom: "Zoldik", image: "../Personnages/silva.jpg" },
     { prenom: "Zeno", nom: "Zoldik", image: "../Personnages/zeno.jpg", hatsu: "Dragon Lance" },
-    { prenom: "Karuto", nom: "Zoldik", image: "../Personnages/karuto.webp" },
-    { prenom: "Aruka", nom: "Zoldik", image: "../Personnages/aruka.jpg" },
+    { prenom: "Karuto", nom: "Zoldik", image: "../Personnages/karuto.webp", hatsu: "Danse des méandres" },
     // York Shin City
-    { prenom: "Kuroro", nom: "Lucifer", image: "../Personnages/kuroro.png", hatsu: "Skill Hunter" },
-    { prenom: "Nobunaga", nom: "Hazama", image: "../Personnages/nobu.jpg" },
     { prenom: "Feitan", nom: "Portor", image: "../Personnages/feitan.jpg", hatsu: "Pain Packer" },
-    { prenom: "Machi", nom: "Komachine", image: "../Personnages/machi.jpg" },
+    { prenom: "Machi", nom: "Komachine", image: "../Personnages/machi.jpg", hatsu: "Suture au fil de Nen" },
     { prenom: "Phinks", nom: "Magkav", image: "../Personnages/phinks.jpg", hatsu: "Ripper Cyclotron" },
-    { prenom: "Sharnalk", nom: "Ryusei", image: "../Personnages/sharnalk.jpg", hatsu: "" },
-    { prenom: "Franklin", nom: "Bordeaux", image: "../Personnages/franklin.jpg", hatsu: "" },
+    { prenom: "Sharnalk", nom: "Ryusei", image: "../Personnages/sharnalk.jpg", hatsu: "Black Voice" },
+    { prenom: "Franklin", nom: "Bordeaux", image: "../Personnages/franklin.jpg", hatsu: "Double Machine Gun" },
     { prenom: "Shizuku", nom: "Murasaki", image: "../Personnages/shizuku.webp", hatsu: "Démé-Chan" },
     { prenom: "Pakunoda", nom: "", image: "../Personnages/pakunoda.webp", hatsu: "Memory  Bullets" },
-    { prenom: "Bonorenof", nom: "Ndongo", image: "../Personnages/bono.webp", hatsu: "Battle Cantabile : "},
+    { prenom: "Bonorenof", nom: "Ndongo", image: "../Personnages/bono.webp", hatsu: "Battle Cantabile : Prologue "},
     { prenom: "Uvoguine", nom: "", image: "../Personnages/uvoguine.jpeg", hatsu: "Big Bang Impact" },
     { prenom: "Korutopi", nom: "", image: "../Personnages/korutopi.jpg", hatsu: "Gallery Fake" },
     // Greed Island
-    { prenom: "Biscuit", nom: "Kruger", image: "../Personnages/biscuit.png", hatsu: "Magical Esthe" },
+    { prenom: "Biscuit", nom: "Kruger", image: "../Personnages/biscuit.png", hatsu: "Massage Piano" },
     { prenom: "Genthru", nom: "", image: "../Personnages/genthru.jpg", hatsu: "Little Flower" },
-    { prenom: "Rasor", nom: "", image: "../Personnages/rasor.webp" },
+    { prenom: "Rasor", nom: "", image: "../Personnages/rasor.webp", hatsu: "14 Nen Devils" },
     // Kimera Ants
     { prenom: "Kaito", nom: "", image: "../Personnages/kaito.jpg", hatsu: "Crazy Slot" },
     { prenom: "Meruem", nom: "", image: "../Personnages/meruem.jpg", hatsu: "Nen Eater" },
     { prenom: "Neferupito", nom: "", image: "../Personnages/neferupito.jpg", hatsu: "Doctor Blythe" },
-    { prenom: "Montutyupi", nom: "", image: "../Personnages/montutyupi.jpg" },
-    { prenom: "Shauapufu", nom: "", image: "../Personnages/shauapufu.jpg", hatsu: "Beelzebuth" },
-    { prenom: "Komugi", nom: "", image: "../Personnages/komugi.jpg" },
-    { prenom: "Jairo", nom: "", image: "../Personnages/jairo.jpg" },
-    { prenom: "Meleoron", nom: "", image: "../Personnages/meleoron.jpg" },
-    { prenom: "Koruto", nom: "", image: "../Personnages/koruto.jpg" },
-    { prenom: "Djido", nom: "", image: "../Personnages/djido.jpg" },
+    { prenom: "Shauapufu", nom: "", image: "../Personnages/shauapufu.jpg", hatsu: "Beelzebub" },
+    { prenom: "Meleoron", nom: "", image: "../Personnages/meleoron.jpg", hatsu: "God's Accomplice" },
+    { prenom: "Djido", nom: "", image: "../Personnages/djido.png", hatsu: "Monroe Walk" },
     { prenom: "Zazan", nom: "", image: "../Personnages/zazan.jpg", hatsu: "Queen Shot" },
-    { prenom: "Leoru", nom:"", image: "../Personnages/leoru.jpg"},
-    { prenom: "Werefin", nom:"", image: "../Personnages/leoru.jpg"},
-    { prenom: "Ikarugo", nom:"", image: "../Personnages/leoru.jpg"},
-    { prenom: "Morau", nom: "McCarnathy", image: "../Personnages/morau.jpg" },
-    { prenom: "Nov", nom: "", image: "../Personnages/nov.jpg" },
-    { prenom: "Knuckle", nom: "Bine", image: "../Personnages/knuckle.jpg" },
-    { prenom: "Shoot", nom: "MacMahon", image: "../Personnages/shoot.jpg" },
-    { prenom: "Pamu", nom: "Shiberia", image: "../Personnages/pamu.jpg" },
-    // Elections
-    { prenom: "Ging", nom: "Freecss", image: "../Personnages/ging.jpg" },
-    { prenom: "Pariston", nom: "Hill", image: "../Personnages/pariston.jpg" }
+    { prenom: "Leoru", nom:"", image: "../Personnages/leoru.jpg", hatsu: "Rental Pod"},
+    { prenom: "Werefin", nom:"", image: "../Personnages/werefin.jpg", hatsu: "Missileman" },
+    { prenom: "Ikarugo", nom:"", image: "../Personnages/ikarugo.jpg", hatsu: "Living Dead Dolls"},
+    { prenom: "Morau", nom: "McCarnathy", image: "../Personnages/morau.jpg", hatsu: "Deep Purple" },
+    { prenom: "Nov", nom: "", image: "../Personnages/nov.jpg", hatsu: "Hide and Seek" },
+    { prenom: "Knuckle", nom: "Bine", image: "../Personnages/knuckle.jpg", hatsu: "Potclean" },
+    { prenom: "Shoot", nom: "MacMahon", image: "../Personnages/shoot.jpg", hatsu: "Hotel Rafflesia" },
+    { prenom: "Pamu", nom: "Shiberia", image: "../Personnages/pamu.jpg", hatsu: "Black Widow" },
 ];
 
 const TabPersosHatsu = [
-    { prenom: "Gon", nom: "Freecss", image: "../Personnages/kirua.webp" },
-    { prenom: "Kirua", nom: "Zoldik", image: "../Personnages/kirua.webp" },
-    { prenom: "Kurapika", nom: "", image: "../Personnages/kurapika.jpg" },
-    { prenom: "Leolio", nom: "Paradinaito", image: "../Personnages/leolio.webp" },
+    { prenom: "Kurapika", nom: "", image: "../Personnages/kurapika.jpg", hatsu: "Emperor Time" },
     // Examen Hunter
-    { prenom: "Hisoka", nom: "Morow", image: "../Personnages/hisoka.webp" },
-    { prenom: "Irumi", nom: "Zoldik", image: "../Personnages/irumi.jpg", hatsu: "Needlemen" },
-    { prenom: "Isaac", nom: "Netero", image: "../Personnages/netero.jpg" },
+    { prenom: "Irumi", nom: "Zoldik", image: "../Personnages/irumi.jpg", hatsu: "Needle People" },
     // Famille Zoldik
-    { prenom: "Silva", nom: "Zoldik", image: "../Personnages/silva.jpg" },
     { prenom: "Zeno", nom: "Zoldik", image: "../Personnages/zeno.jpg", hatsu: "Dragon Lance" },
-    { prenom: "Karuto", nom: "Zoldik", image: "../Personnages/karuto.webp" },
-    { prenom: "Aruka", nom: "Zoldik", image: "../Personnages/aruka.jpg" },
+    { prenom: "Karuto", nom: "Zoldik", image: "../Personnages/karuto.webp", hatsu: "Danse des méandres" },
     // York Shin City
-    { prenom: "Kuroro", nom: "Lucifer", image: "../Personnages/kuroro.png", hatsu: "Skill Hunter" },
-    { prenom: "Nobunaga", nom: "Hazama", image: "../Personnages/nobu.jpg" },
     { prenom: "Feitan", nom: "Portor", image: "../Personnages/feitan.jpg", hatsu: "Pain Packer" },
-    { prenom: "Machi", nom: "Komachine", image: "../Personnages/machi.jpg" },
+    { prenom: "Machi", nom: "Komachine", image: "../Personnages/machi.jpg", hatsu: "Suture au fil de Nen" },
     { prenom: "Phinks", nom: "Magkav", image: "../Personnages/phinks.jpg", hatsu: "Ripper Cyclotron" },
-    { prenom: "Sharnalk", nom: "Ryusei", image: "../Personnages/sharnalk.jpg", hatsu: "" },
-    { prenom: "Franklin", nom: "Bordeaux", image: "../Personnages/franklin.jpg", hatsu: "" },
+    { prenom: "Sharnalk", nom: "Ryusei", image: "../Personnages/sharnalk.jpg", hatsu: "Black Voice" },
+    { prenom: "Franklin", nom: "Bordeaux", image: "../Personnages/franklin.jpg", hatsu: "Double Machine Gun" },
     { prenom: "Shizuku", nom: "Murasaki", image: "../Personnages/shizuku.webp", hatsu: "Démé-Chan" },
     { prenom: "Pakunoda", nom: "", image: "../Personnages/pakunoda.webp", hatsu: "Memory  Bullets" },
-    { prenom: "Bonorenof", nom: "Ndongo", image: "../Personnages/bono.webp", hatsu: "Battle Cantabile : "},
+    { prenom: "Bonorenof", nom: "Ndongo", image: "../Personnages/bono.webp", hatsu: "Battle Cantabile : Prologue "},
     { prenom: "Uvoguine", nom: "", image: "../Personnages/uvoguine.jpeg", hatsu: "Big Bang Impact" },
     { prenom: "Korutopi", nom: "", image: "../Personnages/korutopi.jpg", hatsu: "Gallery Fake" },
     // Greed Island
-    { prenom: "Biscuit", nom: "Kruger", image: "../Personnages/biscuit.png", hatsu: "Magical Esthe" },
+    { prenom: "Biscuit", nom: "Kruger", image: "../Personnages/biscuit.png", hatsu: "Massage Piano" },
     { prenom: "Genthru", nom: "", image: "../Personnages/genthru.jpg", hatsu: "Little Flower" },
-    { prenom: "Rasor", nom: "", image: "../Personnages/rasor.webp" },
+    { prenom: "Rasor", nom: "", image: "../Personnages/rasor.webp", hatsu: "14 Nen Devils" },
     // Kimera Ants
     { prenom: "Kaito", nom: "", image: "../Personnages/kaito.jpg", hatsu: "Crazy Slot" },
     { prenom: "Meruem", nom: "", image: "../Personnages/meruem.jpg", hatsu: "Nen Eater" },
     { prenom: "Neferupito", nom: "", image: "../Personnages/neferupito.jpg", hatsu: "Doctor Blythe" },
-    { prenom: "Montutyupi", nom: "", image: "../Personnages/montutyupi.jpg" },
-    { prenom: "Shauapufu", nom: "", image: "../Personnages/shauapufu.jpg", hatsu: "Beelzebuth" },
-    { prenom: "Komugi", nom: "", image: "../Personnages/komugi.jpg" },
-    { prenom: "Jairo", nom: "", image: "../Personnages/jairo.jpg" },
-    { prenom: "Meleoron", nom: "", image: "../Personnages/meleoron.jpg" },
-    { prenom: "Koruto", nom: "", image: "../Personnages/koruto.jpg" },
-    { prenom: "Djido", nom: "", image: "../Personnages/djido.jpg" },
+    { prenom: "Shauapufu", nom: "", image: "../Personnages/shauapufu.jpg", hatsu: "Beelzebub" },
+    { prenom: "Meleoron", nom: "", image: "../Personnages/meleoron.jpg", hatsu: "God's Accomplice" },
+    { prenom: "Djido", nom: "", image: "../Personnages/djido.png", hatsu: "Monroe Walk" },
     { prenom: "Zazan", nom: "", image: "../Personnages/zazan.jpg", hatsu: "Queen Shot" },
-    { prenom: "Leoru", nom:"", image: "../Personnages/leoru.jpg"},
-    { prenom: "Werefin", nom:"", image: "../Personnages/leoru.jpg"},
-    { prenom: "Ikarugo", nom:"", image: "../Personnages/leoru.jpg"},
-    { prenom: "Morau", nom: "McCarnathy", image: "../Personnages/morau.jpg" },
-    { prenom: "Nov", nom: "", image: "../Personnages/nov.jpg" },
-    { prenom: "Knuckle", nom: "Bine", image: "../Personnages/knuckle.jpg" },
-    { prenom: "Shoot", nom: "MacMahon", image: "../Personnages/shoot.jpg" },
-    { prenom: "Pamu", nom: "Shiberia", image: "../Personnages/pamu.jpg" },
-    // Elections
-    { prenom: "Ging", nom: "Freecss", image: "../Personnages/ging.jpg" },
-    { prenom: "Pariston", nom: "Hill", image: "../Personnages/pariston.jpg" }
+    { prenom: "Leoru", nom:"", image: "../Personnages/leoru.jpg", hatsu: "Rental Pod"},
+    { prenom: "Werefin", nom:"", image: "../Personnages/werefin.jpg", hatsu: "Missileman" },
+    { prenom: "Ikarugo", nom:"", image: "../Personnages/ikarugo.jpg", hatsu: "Living Dead Dolls"},
+    { prenom: "Morau", nom: "McCarnathy", image: "../Personnages/morau.jpg", hatsu: "Deep Purple" },
+    { prenom: "Nov", nom: "", image: "../Personnages/nov.jpg", hatsu: "Hide and Seek" },
+    { prenom: "Knuckle", nom: "Bine", image: "../Personnages/knuckle.jpg", hatsu: "Potclean" },
+    { prenom: "Shoot", nom: "MacMahon", image: "../Personnages/shoot.jpg", hatsu: "Hotel Rafflesia" },
+    { prenom: "Pamu", nom: "Shiberia", image: "../Personnages/pamu.jpg", hatsu: "Black Widow" },
 ];
 
 const inputSearch = document.querySelector('.input-recherche');
@@ -230,31 +198,15 @@ suggestionSearch.addEventListener("click", (e) => {
     // Trouve le personnage correspondant
     persoPropose = TabPersosHatsu.find(perso => perso.prenom.toLowerCase() === prenom);
     if (persoPropose) {
+        suggestionSearch.style.display = "none";
         afficherComparaison(persoPropose, persoADeviner);
-        document.querySelector(".comparaison-item").style.animation = "none";
         inputSearch.value = "";
         inputSearch.focus();
         if (persoPropose.prenom === persoADeviner.prenom) {
+            document.querySelector('.comparaison-item').style.animation = "none";
             setTimeout(() => {
                 Victoire(); // Appel de la fonction après 2 secondes
             }, 50); // Délai de 2000 ms (2 secondes)
         }
     }
 })
-
-  // Gestion de l'entrée utilisateur
-   // const inputElement = document.querySelector('.input-recherche');
-   // inputElement.addEventListener('input', () => {
-      //  const userInput = inputElement.value.trim().toLowerCase();
-        //const correctName = persoADeviner.prenom.toLowerCase();
-    
-       // if (userInput === correctName) {
-        // Réponse correcte : ajoute une classe "correct"
-        //inputElement.classList.remove('incorrect');
-       // inputElement.classList.add('correct');
-        //} else {
-        // Réponse incorrecte : ajoute une classe "incorrect"
-        //inputElement.classList.remove('correct');
-        //inputElement.classList.add('incorrect');
-       // }
-    //});

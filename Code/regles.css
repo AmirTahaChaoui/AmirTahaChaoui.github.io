@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-image: url('../Ressources/General/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo {
+    height: 150px;
+    margin-top: 5px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.conteneur {
+    position: relative;
+}
+
+.icon {
+    margin-top: -25px;
+    margin-bottom: -20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon:hover {
+    transform: scale(1.07);
+}
+
+.aide {
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 300%;
+}
+
+.info {
+    width: 40px;
+    height: 40px;
+}
+
+.guide {
+    width: 35px;
+    height: 35px;
+    margin-top: -23px;
+}
+
+.navigation {
+    margin-top: 40px;
+    background: linear-gradient( #c5bf83, #efefd9);
+    border-radius: 30px;
+    border: 2px solid black;
+    box-shadow: 0px 8px 15px rgb(57 27 33);
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.jeu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+    margin-top: 140px;
+}
+
+
+.consigne {
+    background: radial-gradient(#8eacac77, #80a29f);
+    font-family: 'Mochiy Pop P One';
+    color: white;
+    text-shadow: 0 3px 4px rgb(0 0 0), 5px 5px 10px #225283;
+    font-size: 20px;  
+    width: 500px; 
+    height: auto; 
+    padding: 20px 15px;
+    border-radius: 15px;
+    border: 3px solid #1e555c;
+    box-shadow: 0 5px 15px #8fabac, inset 0 0 10px rgba(255, 255, 255);
+    backdrop-filter: blur(4px);
+}
+
+
+p, ul {
+    font-family: sans-serif;
+}
+
+footer {
+    margin-top: 350px;
+    padding: 9px;
+    font-size: 12px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 10px;
+
+}

@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-image: url('../Ressources/General/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo {
+    height: 150px;
+    margin-top: 5px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.conteneur {
+    position: relative;
+}
+
+.icon {
+    margin-top: -25px;
+    margin-bottom: -20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon:hover {
+    transform: scale(1.07);
+}
+
+.aide {
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 300%;
+}
+
+.info {
+    width: 40px;
+    height: 40px;
+}
+
+.guide {
+    width: 35px;
+    height: 35px;
+    margin-top: -23px;
+}
+
+.navigation {
+    margin-top: 40px;
+    background: linear-gradient( #c5bf83, #efefd9);
+    border-radius: 30px;
+    border: 2px solid black;
+    box-shadow: 0px 8px 15px rgb(57 27 33);
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.jeu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 50px;
+    margin-top: 140px;
+}
+
+.consigne {
+    background: radial-gradient(#8eacac77, #80a29f);
+    font-family: 'Mochiy Pop P One';
+    color: white;
+    text-shadow: 0 3px 4px rgb(0 0 0), 5px 5px 10px #225283;
+    font-size: 22px;
+    width: 450px;
+    height: 430px;
+    padding: 30px 20px;
+    border-radius: 15px;
+    border: 3px solid #1e555c;
+    box-shadow: 0 5px 15px #8fabac, inset 0 0 10px rgba(255, 255, 255);
+    backdrop-filter: blur(4px);
+    font-size: 15px;
+}
+
+.video {
+    width: 100%; 
+    max-width: 450px; 
+    margin-top: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.consigne-p {
+    color: white;
+    font-size: 16px;
+}
+
+.subtitle {
+    position: absolute;
+    bottom: 100px; 
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    border-radius: 5px;
+    display: block; 
+    font-size: 20px;
+}
+
+.avis-container {
+    background: radial-gradient(#8eacac77, #80a29f);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 450px; 
+    box-shadow: 0 5px 15px #8fabac;
+    color: white;
+}
+
+.avis-consigne {
+    font-family: 'Mochiy Pop P One';
+    margin-bottom: 15px;
+    text-shadow: 0 3px 4px rgb(0 0 0), 5px 5px 10px #225283;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+label {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #1e555c;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px;
+    background-color: #1e555c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+  
+    background-color: #1c7a64;
+}
+
+i {
+    text-shadow: none;
+}
+
+
+footer {
+    margin-top: 350px;
+    padding: 9px;
+    font-size: 12px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 10px;
+
+}

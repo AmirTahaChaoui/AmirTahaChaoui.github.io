@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="apropos.css">
+    <title>HxHdle</title>
+    <link rel="icon" href="../Ressources/General/logo2.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Marhey:wght@300..700&family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img class="logo" src="../Ressources/General/logo.png">
+    <div class="conteneur">
+        <nav class="aide">
+            <a href='./apropos.html'><img class="icon info" src="../Ressources/General/apropos.png" title="À propos"></a>
+            <a href='./regles.html'><img class="icon guide" src="../Ressources/General/question.png" title="Comment jouer ?"></a>
+        </nav>
+    </div>
+    <div class="conteneur">
+        <nav class="navigation">
+            <a href='./personnage.html'><img class="icon perso" src="../Ressources/General/perso.webp" title="Personnage"></a>
+            <a href='./hatsu.html'><img class="icon hatsu" src="../Ressources/General/hatsu.png" title="Hatsu"></a>
+            <a href='./citation.html'><img class="icon citation" src="../Ressources/General/citation.png" title="Citation"></a>
+        </nav>
+    </div>
+
+    <div class="jeu">
+        <div class="consigne">
+            <p class="consigne-p">Nous avons décidé de créer ce site car nous sommes avant tout passionnés de mangas et d'animés. Le choix de <a href="https://fr.wikipedia.org/wiki/Hunter_×_Hunter" target="_blank"><i>Hunter x Hunter</i></a> s'est fait naturellement, étant un animé que nous avons particulièrement apprécié tous les trois. Nous avons donc combiné nos deux passions, l'informatique et les mangas, ce qui a donné naissance à ce site.</p> <br>
+            <p class="consigne-p"><a href="https://fr.wikipedia.org/wiki/Hunter_×_Hunter" target="_blank"><i>Hunter x Hunter</i></a> est une marque déposée de <a href="https://fr.wikipedia.org/wiki/Yoshihiro_Togashi" target="_blank"><i>Yoshihiro Togashi</i></a>, qui n'approuve ni ne sponsorise ce projet.</p> <br>
+            <p class="consigne-p">Grandement inspiré par ce jeu cool : <i><a href="https://narutodle.net/" target="_blank">Narutodle</a></i></p>
+        </div>
+
+        <!-- Ajout de la vidéo -->
+        <video id="video" controls>
+            <source src="../Ressources/trailer.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la vidéo.
+        </video>
+
+        <div class="comparaison"></div>
+    </div>
+
+    <!-- Nouveau rectangle pour le formulaire d'avis -->
+    <div class="avis-container">
+        <p class="avis-consigne">Donnez nous votre avis sur ce site</p>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+            <label for="email">E-mail :</label>
+            <input type="email" id="email" name="email" required>
+            <label for="avis">Votre avis :</label>
+            <textarea id="avis" name="avis" rows="4" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>© hxhdle.net - 2025</p> <br>
+        <p>Développé par Mohammed Aggab, Jibril Ferrat et Amir Chaoui</p>
+    </footer>
+
+    <!-- Lien vers le fichier JavaScript externe -->
+    <script src="./apropos.js"></script>
+</body>
+</html>

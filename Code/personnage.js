@@ -4,7 +4,7 @@ const TabPersosRecherche = [
     { prenom: "Kurapika", nom: "", image: "../Personnages/kurapika.jpg" },
     { prenom: "Leolio", nom: "Paradinaito", image: "../Personnages/leolio.webp" },
     // Examen Hunter
-    { prenom: "Hisoka", nom: "Morow", image: "../Personnages/hisoka.webp" },
+    { prenom: "Hisoka", nom: "Morow", image: "../Personnages/hisoka.jpg" },
     { prenom: "Irumi", nom: "Zoldik", image: "../Personnages/irumi.jpg" },
     { prenom: "Isaac", nom: "Netero", image: "../Personnages/netero.jpg" },
 
@@ -17,7 +17,7 @@ const TabPersosRecherche = [
     { prenom: "Goto", nom: "", image: "../Personnages/goto.webp" },
     // York Shin City
     { prenom: "Kuroro", nom: "Lucifer", image: "../Personnages/kuroro.png" },
-    { prenom: "Nobunaga", nom: "Hazama", image: "../Personnages/nobu.jpg" },
+    { prenom: "Nobunaga", nom: "Hazama", image: "../Personnages/nobunaga.webp" },
     { prenom: "Feitan", nom: "Portor", image: "../Personnages/feitan.jpg" },
     { prenom: "Machi", nom: "Komachine", image: "../Personnages/machi.jpg" },
     { prenom: "Phinks", nom: "Magkav", image: "../Personnages/phinks.jpg" },
@@ -29,7 +29,7 @@ const TabPersosRecherche = [
     { prenom: "Uvoguine", nom: "", image: "../Personnages/uvoguine.jpeg" },
     { prenom: "Korutopi", nom: "", image: "../Personnages/korutopi.jpg" },
 
-    { prenom: "Neon", nom: "Nostrad", image: "../Personnages/neon.jpg" },
+    { prenom: "Neon", nom: "Nostrad", image: "../Personnages/neon.webp" },
     { prenom: "Senritsu", nom: "", image: "../Personnages/senritsu.webp" },
     // Greed Island
     { prenom: "Biscuit", nom: "Kruger", image: "../Personnages/biscuit.png" },
@@ -46,11 +46,11 @@ const TabPersosRecherche = [
     { prenom: "Jairo", nom: "", image: "../Personnages/jairo.jpg" },
     { prenom: "Meleoron", nom: "", image: "../Personnages/meleoron.jpg" },
     { prenom: "Koruto", nom: "", image: "../Personnages/koruto.jpg" },
-    { prenom: "Djido", nom: "", image: "../Personnages/djido.jpg" },
+    { prenom: "Djido", nom: "", image: "../Personnages/djido.png" },
     { prenom: "Zazan", nom: "", image: "../Personnages/zazan.jpg" },
     { prenom: "Leoru", nom:"", image: "../Personnages/leoru.jpg"},
-    { prenom: "Werefin", nom:"", image: "../Personnages/leoru.jpg"},
-    { prenom: "Ikarugo", nom:"", image: "../Personnages/leoru.jpg"},
+    { prenom: "Werefin", nom:"", image: "../Personnages/werefin.jpg"},
+    { prenom: "Ikarugo", nom:"", image: "../Personnages/ikarugo.jpg"},
     { prenom: "Morau", nom: "McCarnathy", image: "../Personnages/morau.jpg" },
     { prenom: "Nov", nom: "", image: "../Personnages/nov.jpg" },
     { prenom: "Knuckle", nom: "Bine", image: "../Personnages/knuckle.jpg" },
@@ -65,7 +65,7 @@ const TabPersosRecherche = [
     { prenom: "Saccho", nom: "Kobayakawa", image: "../Personnages/saccho.jpg" },
     { prenom: "Ginta", nom: "", image: "../Personnages/ginta.jpg" },
     { prenom: "Saiyu", nom: "", image: "../Personnages/saiyu.jpg" },
-    { prenom: "Kurukku", nom: "", image: "../Personnages/kurukku.jpg" },
+    { prenom: "Kurukku", nom: "", image: "../Personnages/kuru.jpg" },
     { prenom: "Cheadle", nom: "Yorkshire", image: "../Personnages/cheadle.jpg" },
     { prenom: "Pariston", nom: "Hill", image: "../Personnages/pariston.jpg" },
     { prenom: "Ging", nom: "Freecss", image: "../Personnages/ging.jpg" }
@@ -73,65 +73,13 @@ const TabPersosRecherche = [
 
 const TabPersosInfos = [
     // Examen Hunter
-    { prenom: "Gon", nom: "Freecss", image: "../Personnages/gon.webp", genre: "Masculin", statut: "Vivant(e)", affiliation: ["Société Hunter"], occupation: "Hunter", typeNen: "Renforcement", premierArc: "Examen Hunter" },
+    { prenom: "Gon", nom: "Freecss", image: "../Personnages/gon.webp", genre: "Masculin", statut: "Vivant(e)", affiliation: "Société Hunter", occupation: "Hunter", typeNen: "Renforcement", premierArc: "Examen Hunter" },
     { prenom: "Kirua", nom: "Zoldik", image: "../Personnages/kirua.webp", genre: "Masculin", statut: "Vivant(e)", affiliation: ["Société Hunter", "Zoldik"], occupation: "Hunter", typeNen: "Transformation", premierArc: "Examen Hunter" },
-    {
-      prenom: "Kurapika",
-      nom: "",
-      image: "../Personnages/kurapika.jpg",
-      genre: "Masculin",
-      statut: "Vivant(e)",
-      affiliation: ["Kuruta", "Société Hunter"],
-      occupation: "Hunter",
-      typeNen: "Matérialisation",
-      premierArc: "Examen Hunter"
-    },
-    {
-      prenom: "Leolio",
-      nom: "Paradinaito",
-      image: "../Personnages/leolio.webp",
-      genre: "Masculin",
-      statut: "Vivant(e)",
-      affiliation: "Société Hunter",
-      occupation: ["Hunter", "Étudiant"],
-      typeNen: "Émission",
-      premierArc: "Examen Hunter"
-    },
-
-    {
-      prenom: "Hisoka",
-      nom: "Morow",
-      image: "../Personnages/hisoka.webp",
-      genre: "Masculin",
-      statut: "Vivant(e)",
-      affiliation: "Société Hunter",
-      occupation: "Hunter",
-      typeNen: "Transformation",
-      premierArc: "Examen Hunter"
-    },
-    {
-      prenom: "Irumi",
-      nom: "Zoldik",
-      image: "../Personnages/irumi.jpg",
-      genre: "Masculin",
-      statut: "Vivant(e)",
-      affiliation: ["Zoldik", "Société Hunter"],
-      occupation: ["Assassin","Hunter"],
-      typeNen: "Manipulation",
-      premierArc: "Examen Hunter"
-    },
-    {
-      prenom: "Isaac",
-      nom: "Netero",
-      image: "../Personnages/netero.jpg",
-      genre: "Masculin",
-      statut: "Décédé(e)",
-      affiliation: "Société Hunter",
-      occupation: "Président",
-      typeNen: "Renforcement",
-      premierArc: "Examen Hunter"
-    },
-
+    { prenom: "Kurapika", nom: "", image: "../Personnages/kurapika.jpg", genre: "Masculin", statut: "Vivant(e)", affiliation: ["Kuruta", "Société Hunter"], occupation: "Hunter", typeNen: "Matérialisation", premierArc: "Examen Hunter" },
+    { prenom: "Leolio", nom: "Paradinaito", image: "../Personnages/leolio.webp", genre: "Masculin", statut: "Vivant(e)", affiliation: "Société Hunter", occupation: ["Hunter", "Étudiant"], typeNen: "Émission", premierArc: "Examen Hunter" },
+    { prenom: "Hisoka", nom: "Morow", image: "../Personnages/hisoka.jpg", genre: "Masculin", statut: "Vivant(e)", affiliation: "Société Hunter", occupation: "Hunter", typeNen: "Transformation", premierArc: "Examen Hunter" },
+    { prenom: "Irumi", nom: "Zoldik", image: "../Personnages/irumi.jpg", genre: "Masculin", statut: "Vivant(e)", affiliation: ["Zoldik", "Société Hunter"], occupation: ["Assassin","Hunter"], typeNen: "Manipulation", premierArc: "Examen Hunter" },
+    { prenom: "Isaac", nom: "Netero", image: "../Personnages/netero.jpg", genre: "Masculin", statut: "Décédé(e)", affiliation: "Société Hunter", occupation: "Président", typeNen: "Renforcement", premierArc: "Examen Hunter" },
     {
       prenom: "Silva",
       nom: "Zoldik",
@@ -224,7 +172,7 @@ const TabPersosInfos = [
     {
       prenom: "Nobunaga",
       nom: "Hazama",
-      image: "../Personnages/nobunaga.png",
+      image: "../Personnages/nobunaga.webp",
       genre: "Masculin",
       statut: "Vivant(e)",
       affiliation: "Brigade Fantôme",
@@ -249,7 +197,7 @@ const TabPersosInfos = [
       image: "../Personnages/machi.jpg",
       genre: "Féminin",
       statut: "Vivant(e)",
-      affiliation: ["Brigade Fantôme"],
+      affiliation: "Brigade Fantôme",
       occupation: "Voleur(se)",
       typeNen: "Matérialisation",
       premierArc: "York Shin City"
@@ -342,7 +290,16 @@ const TabPersosInfos = [
       typeNen: "Matérialisation",
       premierArc: "York Shin City"
     },
-    { prenom: "Senritsu", nom: "", image: "../Personnages/senritsu.webp", genre: "Féminin", statut: "Vivant(e)", affiliation: "Société Hunter", occupation: ["Hunter", "Garde du corps"], typeNen: "Émission", premierArc: "York Shin City" },
+    { prenom: "Senritsu", 
+      nom: "", 
+      image: "../Personnages/senritsu.jpg", 
+      genre: "Féminin", 
+      statut: "Vivant(e)", 
+      affiliation: "Société Hunter", 
+      occupation: ["Hunter", "Garde du corps"], 
+      typeNen: "Émission", 
+      premierArc: "York Shin City" 
+    },
     {
       prenom: "Neon",
       nom: "Nostrad",
@@ -402,23 +359,23 @@ const TabPersosInfos = [
     // Kimera Ants
     { prenom: "Kaito", nom: "", image: "../Personnages/kaito.jpg", genre: "Masculin", statut: "Vivant(e) ", affiliation: ["Société Hunter", "Fourmis Chimères"], occupation: ["Hunter", "Sous contrat"], typeNen: "Matérialisation", premierArc: "Kimera Ants" },
     { prenom: "Meruem", nom: "", image: "../Personnages/meruem.jpg", genre: "Masculin", statut: "Décédé(e)", affiliation: "Fourmis Chimères", occupation: "Roi", typeNen: "Émission", premierArc: "Kimera Ants" },
-    { prenom: "Neferupito", nom: "", image: "../Personnages/gon.webp", genre: "Inconnu", statut: "Décédé(e)", affiliation: "Fourmis Chimères", occupation: "Garde royal", typeNen: "Spécialisation", premierArc: "Kimera Ants" },
-    { prenom: "Montutyupi", nom: "", image: "../Personnages/gon.webp", genre: "Masculin", statut: "Décédé(e)", affiliation: "Fourmis Chimères", occupation: "Garde royal", typeNen: "Transformation", premierArc: "Kimera Ants" },
-    { prenom: "Shauapufu", nom: "", image: "../Personnages/gon.webp", genre: "Masculin", statut: "Décédé(e)", affiliation: "Fourmis Chimères", occupation: "Garde royal", typeNen: "Manipulation", premierArc: "Kimera Ants" },
-    { prenom: "Komugi", nom: "", image: "../Personnages/gon.webp", genre: "Féminin", statut: "Décédé(e)", affiliation: "Aucune", occupation: "Joueuse de Gungi", typeNen: "Renforcement", premierArc: "Kimera Ants" },
-    { prenom: "Jairo", nom: "", image: "../Personnages/gon.webp", genre: "Masculin", statut: "Inconnu", affiliation: "Fourmis Chimères", occupation: "Roi de NGL", typeNen: "Inconnu", premierArc: "Kimera Ants" },
-    { prenom: "Meleoron", nom: "", image: "../Personnages/gon.webp", genre: "Masculin", statut: "Vivant(e)", affiliation: "Fourmis Chimères", occupation: "Chef d'escouade", typeNen: "Spécialisation", premierArc: "Kimera Ants" },
-    { prenom: "Koruto", nom: "", image: "../Personnages/gon.webp", genre: "Masculin", statut: "Vivant(e)", affiliation: "Fourmis Chimères", occupation: "Chef d'escouade", typeNen: "Inconnu", premierArc: "Kimera Ants" },
-    { prenom: "Djido", nom: "", image: "../Personnages/gon.webp", genre: "Masculin", statut: "Décédé(e)", affiliation: "Fourmis Chimères", occupation: "Chef d'escouade", typeNen: "Matérialisation", premierArc: "Kimera Ants" },
-    { prenom: "Zazan", nom: "", image: "../Personnages/gon.webp", genre: "Féminin", statut: "Décédé(e)", affiliation: "Fourmis Chimères", occupation: "Chef d'escouade", typeNen: "Manipulation", premierArc: "Kimera Ants" },
-    { prenom: "Leoru", nom: "", image: "../Personnages/gon.webp", genre: "Masculin", statut: "Décédé(e)", affiliation: "Fourmis Chimères", occupation: "Chef d'escouade", typeNen: "Spécialisation", premierArc: "Kimera Ants" },
-    { prenom: "Werefin", nom: "", image: "../Personnages/gon.webp", genre: "Masculin", statut: "Vivant(e)", affiliation: "Fourmis Chimères", occupation: "Chef d'escouade", typeNen: "Matérialisation", premierArc: "Kimera Ants" },
-    { prenom: "Ikarugo", nom: "", image: "../Personnages/gon.webp", genre: "Masculin", statut: "Vivant(e)", affiliation: "Fourmis Chimères", occupation: "Capitaine", typeNen: "Renforcement", premierArc: "Kimera Ants" },
-    { prenom: "Morau", nom: "McCarnathy", image: "../Personnages/gon.webp", genre: "Masculin", statut: "Vivant(e)", affiliation: "Société Hunter", occupation: ["Hunter","Étoilé"], typeNen: "Manipulation", premierArc: "Kimera Ants" },
-    { prenom: "Nov", nom: "", image: ".miru./Personnages/gon.webp", genre: "Masculin", statut: "Vivant(e)", affiliation: "Société Hunter", occupation: "Hunter", typeNen: "Émission", premierArc: "Kimera Ants" },
-    { prenom: "Knuckle", nom: "Bine", image: "../Personnages/gon.webp", genre: "Masculin", statut: "Vivant(e)", affiliation: "Société Hunter", occupation: "Hunter", typeNen: "Matérialisation", premierArc: "Kimera Ants" },
-    { prenom: "Shoot", nom: "MacMahon", image: "../Personnages/gon.webp", genre: "Masculin", statut: "Vivant(e)", affiliation: "Société Hunter", occupation: "Hunter", typeNen: "Manipulation", premierArc: "Kimera Ants" },
-    { prenom: "Pamu", nom: "Shiberia", image: "../Personnages/gon.webp", genre: "Féminin", statut: "Vivant(e)", affiliation: ["Société Hunter", "Fourmis Chimères"], occupation: ["Hunter","Voyante"], typeNen: "Renforcement", premierArc: "Kimera Ants" },
+    { prenom: "Neferupito", nom: "", image: "../Personnages/neferupito.jpg", genre: "Inconnu", statut: "Décédé(e)", affiliation: "Fourmis Chimères", occupation: "Garde royal", typeNen: "Spécialisation", premierArc: "Kimera Ants" },
+    { prenom: "Montutyupi", nom: "", image: "../Personnages/montutyupi.jpg", genre: "Masculin", statut: "Décédé(e)", affiliation: "Fourmis Chimères", occupation: "Garde royal", typeNen: "Transformation", premierArc: "Kimera Ants" },
+    { prenom: "Shauapufu", nom: "", image: "../Personnages/shauapufu.jpg", genre: "Masculin", statut: "Décédé(e)", affiliation: "Fourmis Chimères", occupation: "Garde royal", typeNen: "Manipulation", premierArc: "Kimera Ants" },
+    { prenom: "Komugi", nom: "", image: "../Personnages/komugi.jpg", genre: "Féminin", statut: "Décédé(e)", affiliation: "Aucune", occupation: "Joueuse de Gungi", typeNen: "Renforcement", premierArc: "Kimera Ants" },
+    { prenom: "Jairo", nom: "", image: "../Personnages/jairo.jpg", genre: "Masculin", statut: "Inconnu", affiliation: "Fourmis Chimères", occupation: "Roi de NGL", typeNen: "Inconnu", premierArc: "Kimera Ants" },
+    { prenom: "Meleoron", nom: "", image: "../Personnages/meleoron.jpg", genre: "Masculin", statut: "Vivant(e)", affiliation: "Fourmis Chimères", occupation: "Chef d'escouade", typeNen: "Spécialisation", premierArc: "Kimera Ants" },
+    { prenom: "Koruto", nom: "", image: "../Personnages/koruto.jpg", genre: "Masculin", statut: "Vivant(e)", affiliation: "Fourmis Chimères", occupation: "Chef d'escouade", typeNen: "Inconnu", premierArc: "Kimera Ants" },
+    { prenom: "Djido", nom: "", image: "../Personnages/djido.png", genre: "Masculin", statut: "Décédé(e)", affiliation: "Fourmis Chimères", occupation: "Chef d'escouade", typeNen: "Matérialisation", premierArc: "Kimera Ants" },
+    { prenom: "Zazan", nom: "", image: "../Personnages/zazan.jpg", genre: "Féminin", statut: "Décédé(e)", affiliation: "Fourmis Chimères", occupation: "Chef d'escouade", typeNen: "Manipulation", premierArc: "Kimera Ants" },
+    { prenom: "Leoru", nom: "", image: "../Personnages/leoru.jpg", genre: "Masculin", statut: "Décédé(e)", affiliation: "Fourmis Chimères", occupation: "Chef d'escouade", typeNen: "Spécialisation", premierArc: "Kimera Ants" },
+    { prenom: "Werefin", nom: "", image: "../Personnages/werefin.jpg", genre: "Masculin", statut: "Vivant(e)", affiliation: "Fourmis Chimères", occupation: "Chef d'escouade", typeNen: "Matérialisation", premierArc: "Kimera Ants" },
+    { prenom: "Ikarugo", nom: "", image: "../Personnages/ikarugo.jpg", genre: "Masculin", statut: "Vivant(e)", affiliation: "Fourmis Chimères", occupation: "Capitaine", typeNen: "Renforcement", premierArc: "Kimera Ants" },
+    { prenom: "Morau", nom: "McCarnathy", image: "../Personnages/morau.jpg", genre: "Masculin", statut: "Vivant(e)", affiliation: "Société Hunter", occupation: ["Hunter","Étoilé"], typeNen: "Manipulation", premierArc: "Kimera Ants" },
+    { prenom: "Nov", nom: "", image: "../Personnages/nov.jpg", genre: "Masculin", statut: "Vivant(e)", affiliation: "Société Hunter", occupation: "Hunter", typeNen: "Émission", premierArc: "Kimera Ants" },
+    { prenom: "Knuckle", nom: "Bine", image: "../Personnages/knuckle.jpg", genre: "Masculin", statut: "Vivant(e)", affiliation: "Société Hunter", occupation: "Hunter", typeNen: "Matérialisation", premierArc: "Kimera Ants" },
+    { prenom: "Shoot", nom: "MacMahon", image: "../Personnages/shoot.jpg", genre: "Masculin", statut: "Vivant(e)", affiliation: "Société Hunter", occupation: "Hunter", typeNen: "Manipulation", premierArc: "Kimera Ants" },
+    { prenom: "Pamu", nom: "Shiberia", image: "../Personnages/pamu.jpg", genre: "Féminin", statut: "Vivant(e)", affiliation: ["Société Hunter", "Fourmis Chimères"], occupation: ["Hunter","Voyante"], typeNen: "Renforcement", premierArc: "Kimera Ants" },
     // Élections
     { prenom: "Mizaistom", nom: "Nana", image: "../Personnages/mizaistom.jpg", genre: "Masculin", statut: "Vivant(e)", affiliation: "Fourmis Chimères", occupation: "Garde royal", typeNen: "Spécialisation", premierArc: "Élections" },
     { prenom: "Kanzai", nom: "", image: "../Personnages/kanzai.jpg", genre: "Masculin", statut: "Vivant(e)", affiliation: "Fourmis Chimères", occupation: "Garde royal", typeNen: "Spécialisation", premierArc: "Élections" },
@@ -428,7 +385,7 @@ const TabPersosInfos = [
     { prenom: "Saccho", nom: "Kobayakawa", image: "../Personnages/saccho.jpg", genre: "Masculin", statut: "Vivant(e)", affiliation: "Fourmis Chimères", occupation: "Garde royal", typeNen: "Spécialisation", premierArc: "Élections" },
     { prenom: "Ginta", nom: "", image: "../Personnages/ginta.jpg", genre: "Masculin", statut: "Vivant(e)", affiliation: "Fourmis Chimères", occupation: "Garde royal", typeNen: "Spécialisation", premierArc: "Élections" },
     { prenom: "Saiyu", nom: "", image: "../Personnages/saiyu.jpg", genre: "Masculin", statut: "Vivant(e)", affiliation: "Fourmis Chimères", occupation: "Garde royal", typeNen: "Spécialisation", premierArc: "Élections" },
-    { prenom: "Kurukku", nom: "", image: "../Personnages/kurukku.jpg", genre: "Féminin", statut: "Vivant(e)", affiliation: "Fourmis Chimères", occupation: "Garde royal", typeNen: "Spécialisation", premierArc: "Élections" },
+    { prenom: "Kurukku", nom: "", image: "../Personnages/kuru.jpg", genre: "Féminin", statut: "Vivant(e)", affiliation: "Fourmis Chimères", occupation: "Garde royal", typeNen: "Spécialisation", premierArc: "Élections" },
     { prenom: "Cheadle", nom: "Yorkshire", image: "../Personnages/cheadle.jpg", genre: "Féminin", statut: "Vivant(e)", affiliation: "Fourmis Chimères", occupation: "Garde royal", typeNen: "Spécialisation", premierArc: "Élections" },
     { prenom: "Pariston", nom: "Hill", image: "../Personnages/pariston.jpg", genre: "Masculin", statut: "Vivant(e)", affiliation: "Fourmis Chimères", occupation: "Garde royal", typeNen: "Spécialisation", premierArc: "Élections" },
     { prenom: "Ging", nom: "Freecss", image: "../Personnages/ging.jpg", genre: "Masculin", statut: "Vivant(e)", affiliation: "Fourmis Chimères", occupation: "Garde royal", typeNen: "Spécialisation", premierArc: "Élections" }
@@ -438,8 +395,7 @@ const TabPersosInfos = [
 const inputSearch = document.querySelector('.input-recherche');
 const suggestionSearch = document.querySelector(".suggestion-recherche");
 
-const persoADeviner = TabPersosInfos[0];
-//Math.floor(Math.random() * TabPersosInfos.length)
+const persoADeviner = TabPersosInfos[Math.floor(Math.random() * TabPersosInfos.length)];
 let persoPropose = null;
 
 function afficherSuggestion(PersonnagesFiltre) {
@@ -600,15 +556,12 @@ function afficherComparaison(persoPropose, persoADeviner) {
     if (Array.isArray(persoPropose[texte])) {
       texte = persoPropose[texte].join(", ");
     }
-  
-    const largeurCellule = cellule.offsetWidth;
-    const hauteurCellule = cellule.offsetHeight;
+
     let taillePolice = 14;
-  
     // Ajuster la taille du texte pour respecter la dimension carrée des cellules
     if (((texte.split(' ').length > 2 && texte.includes(',')) // les string composées de plus de 2 mots separés par au moins une virgule (débordement vertical)
       || (texte.split(' ').some(mot => mot.length > 10)))) { // les string contenant au moins un mot de + de 9 lettres (débordement horizontal)
-      taillePolice = 9;
+      taillePolice = 10;
     } else if (texte.length < 5) { // Taille pour bien voir les string courtes
       taillePolice = 18;
     }
