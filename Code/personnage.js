@@ -1,5 +1,5 @@
 const TabPersosRecherche = [
-    { prenom: "Gon", nom: "Freecss", image: "../Ressources/Personnages/kirua.webp" },
+    { prenom: "Gon", nom: "Freecss", image: "../Ressources/Personnages/gon.webp" },
     { prenom: "Kirua", nom: "Zoldik", image: "../Ressources/Personnages/kirua.webp" },
     { prenom: "Kurapika", nom: "", image: "../Ressources/Personnages/kurapika.jpg" },
     { prenom: "Leolio", nom: "Paradinaito", image: "../Ressources/Personnages/leolio.webp" },
