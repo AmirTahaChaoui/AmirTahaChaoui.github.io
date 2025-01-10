@@ -176,7 +176,7 @@ body {
 }
 .contenu-ligne-cell {
     animation: fadeIn 0.5s ease-out forwards;
-    opacity: 0; /* Les cellules sont initialement invisibles */
+    opacity: 0;
   }
 .contenu-ligne-cell:nth-child(2) {
   animation-delay: 0.5s;
@@ -219,7 +219,8 @@ body {
         margin: 0 0 0 100px;
     }
     .contenu-ligne-cell {
-        height: none;
+        height: 0;
+        font-size: 10px;
     }
     .comparaison-img {
         width: 65px;
