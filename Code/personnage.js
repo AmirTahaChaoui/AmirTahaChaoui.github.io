@@ -292,7 +292,7 @@ const TabPersosInfos = [
     },
     { prenom: "Senritsu", 
       nom: "", 
-      image: "../Ressources/Personnages/senritsu.jpg", 
+      image: "../Ressources/Personnages/senritsu.webp", 
       genre: "Féminin", 
       statut: "Vivant(e)", 
       affiliation: "Société Hunter", 
