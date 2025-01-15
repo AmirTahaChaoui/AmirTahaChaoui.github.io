@@ -124,7 +124,7 @@ body {
 }
 .suggestion-recherche {
     position: absolute;
-    top: 290px;
+    margin-top: 350px;
     z-index: 10;
     width: 240px;
     max-height: 300px;
