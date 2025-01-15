@@ -87,7 +87,12 @@ body {
     margin-top: 140px;
 }
 
-
+.consignes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
 .consigne {
     background: radial-gradient(#8eacac77, #80a29f);
     font-family: 'Mochiy Pop P One';
