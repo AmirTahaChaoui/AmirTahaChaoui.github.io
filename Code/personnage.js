@@ -395,8 +395,7 @@ const TabPersosInfos = [
 const inputSearch = document.querySelector('.input-recherche');
 const suggestionSearch = document.querySelector(".suggestion-recherche");
 
-const persoADeviner = TabPersosInfos[5];
-//Math.floor(Math.random() * TabPersosCitation.length)
+const persoADeviner = TabPersosInfos[Math.floor(Math.random() * TabPersosCitation.length)];
 let persoPropose = null;
 
 function afficherSuggestion(PersonnagesFiltre) {
